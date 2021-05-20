@@ -1,7 +1,7 @@
 # Panther Swap Lib
 
 
-Solidity libraries that are shared across PantherSwap contracts. These libraries are focused on safety and gas efficiency.
+Solidity libraries that are shared across DragonStash contracts. These libraries are focused on safety and gas efficiency.
 
 ## Install
 
@@ -13,10 +13,10 @@ Run `yarn test` to execute the test suite.
 
 ## Usage
 
-Install this in another project via `yarn add @pantherswap/panther-swap-lib` 
+Install this in another project via `yarn add @DragonStashDefi/dragon-stash-defi-lib` 
 
 Then import the contracts via:
 
 ```solidity
-import "@pantherswap/panther-swap-lib/contracts/access/Ownable.sol"; 
+import "@DragonStashDefi/dragon-stash-defi-lib/contracts/access/Ownable.sol"; 
 ```
