@@ -1,5 +1,5 @@
 {
-  "name": "@DragonStashDefi/dragon-stash-defi-lib",
+  "name": "@dragonstashdefi/dragon-stash-defi-lib",
   "version": "0.0.1",
   "description": "Dragon Stash Lib",
   "files": [
@@ -8,10 +8,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:DragonStashDefi/dragon-stash-defi-lib"
+    "url": "ssh://git@github.com:dragonstashdefi/dragon-stash-defi-lib"
   },
   "publishConfig": {
-    "registry": "http://registry.npmjs.org"
+    "registry": "https://npm.pkg.github.com/dragonstashdefi"
   },
   "engines": {
     "node": ">=10"
@@ -35,8 +35,7 @@
     "precompile": "rimraf ./build/",
     "compile": "waffle",
     "pretest": "yarn compile",
-    "test": "mocha",
-    "prepublishOnly": "yarn test"
+    "test": "mocha"
   },
   "license": "GPL-3.0-or-later"
 }
